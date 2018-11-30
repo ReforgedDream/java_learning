@@ -1,2 +1,2 @@
 # java_learning
-Learning projects
+Learning projects.
