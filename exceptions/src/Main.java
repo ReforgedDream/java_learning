@@ -7,8 +7,8 @@ public class Main {
         System.out.println("MathBox.");
         System.out.println(mb.add(3, 4));
         System.out.println(mb.subtract(5, 2));
-        System.out.println(mb.calculateFactorial(5));
-        System.out.println(mb.divideExceptionInside(8, 0));
+        System.out.println(mb.calculateFactorial(25));
+        System.out.println(mb.divideExceptionInside(8, 7));
         try {
             System.out.println(mb.divide(6, 0));
         } catch (Exception e) {
