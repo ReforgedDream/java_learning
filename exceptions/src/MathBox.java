@@ -19,11 +19,9 @@ public class MathBox {
     public double divideExceptionInside(Integer a, Integer b) {
         double result = 0.0;
         try {
-            result = ((double)a) / b;
+            result = a / b;
         } catch(ArithmeticException e) {
             System.out.println("An exception has occured!");
-            // Not sure if this string is really needed
-            result = 0;
         }
         return result;
     }
